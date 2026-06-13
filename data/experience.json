@@ -1,0 +1,29 @@
+[
+  {
+    "id": "sterlings-tech",
+    "company": "Sterlings Tech",
+    "role": "Full Stack Developer",
+    "startDate": "",
+    "endDate": "Present",
+    "description": "Building production platforms — Amana Pay (digital wallet & core-banking fintech) and Scribe (AI study platform with LLM pipelines, collaborative workspaces, and Stripe billing).",
+    "sortOrder": 1
+  },
+  {
+    "id": "dappster",
+    "company": "DAppster",
+    "role": "Full Stack Developer",
+    "startDate": "",
+    "endDate": "",
+    "description": "Built an AI-powered trading analysis platform — React frontend, Express API with JWT auth, and a Python Gemini agent for image + text-driven market insights.",
+    "sortOrder": 2
+  },
+  {
+    "id": "wimetrix",
+    "company": "Wimetrix",
+    "role": "Full Stack Developer",
+    "startDate": "",
+    "endDate": "",
+    "description": "Developed a real-time garment manufacturing KPI dashboard — Fastify + MSSQL backend and React/Vite frontend for line-wise efficiency, quality, and production monitoring.",
+    "sortOrder": 3
+  }
+]

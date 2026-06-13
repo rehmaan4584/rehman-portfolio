@@ -1,0 +1,164 @@
+[
+  {
+    "id": "crm",
+    "title": "Multi-Tenant CRM",
+    "category": "personal",
+    "summary": "Problem: B2B teams need isolated customer data per organization with safe concurrent assignment. Solution: NestJS + Next.js CRM with JWT-scoped multi-tenancy, Prisma transactions with row locking, and indexed queries built for 100k+ customers per org.",
+    "techStack": [
+      "NestJS",
+      "Next.js",
+      "PostgreSQL",
+      "Prisma",
+      "JWT",
+      "Docker"
+    ],
+    "liveUrl": "https://rehman-crm.duckdns.org",
+    "githubUrl": "https://github.com/rehmaan4584/multi-tenant-crm",
+    "image": "/projects/7eec5b88-297d-40a4-a1b8-311a90072830.png",
+    "sortOrder": 1
+  },
+  {
+    "id": "amana-pay",
+    "title": "Amana Pay · Sterlings Tech",
+    "category": "professional",
+    "summary": "Problem: Retail customers, merchants, and bank staff lacked a single digital channel to manage wallets, transfer funds, pay bills, and complete KYC without visiting branches or juggling disconnected systems. Solution: Built a full-stack fintech platform (Angular portal + Node.js API) integrating core banking and national payment switch (SIPS/RTGS) — owned MPIN/device auth, RBAC, KYC workflows, wallet & cashier management, bill/QR payments, and real-time transaction dashboards.",
+    "techStack": [
+      "TypeScript",
+      "Node.js",
+      "Express",
+      "Angular",
+      "PostgreSQL",
+      "Prisma",
+      "Redis",
+      "BullMQ",
+      "Socket.io",
+      "JWT",
+      "Tailwind CSS"
+    ],
+    "image": "/projects/dad9816a-f82e-40d3-8356-5c200da0567d.png",
+    "videoUrl": "",
+    "sortOrder": 1
+  },
+  {
+    "id": "scribe",
+    "title": "Scribe — AI Study Platform",
+    "category": "professional",
+    "summary": "Problem: Students lose study time manually rewriting notes into flashcards, summaries, and practice questions instead of reviewing and retaining material. Solution: Built a full-stack AI study platform where users upload PDFs and notes to receive guides, flashcards, auto-graded worksheets, and multi-speaker podcasts in shared workspaces — implemented file ingestion, LLM orchestration, SM-2 spaced repetition, real-time generation updates, collaborative permissions, and Stripe billing across Next.js, tRPC, and a Python inference service.",
+    "techStack": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "tRPC",
+      "Express",
+      "Prisma",
+      "PostgreSQL",
+      "Python",
+      "Flask",
+      "OpenAI",
+      "Stripe",
+      "Tailwind CSS"
+    ],
+    "image": "/projects/fc80b79a-282a-4bf0-a4af-f78968c70ad9.png",
+    "videoUrl": "",
+    "sortOrder": 2
+  },
+  {
+    "id": "black-pearl",
+    "title": "Black Pearl Store",
+    "category": "personal",
+    "summary": "Problem: Online shoppers need a fast, reliable storefront to browse products, manage a cart, and pay securely. Solution: Next.js customer store with catalog filters, variant picker, cart/checkout UX, Stripe hosted payments, and order tracking — powered by a NestJS API with real-time inventory sync.",
+    "techStack": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Stripe",
+      "NestJS",
+      "PostgreSQL"
+    ],
+    "liveUrl": "https://rehman-bp-store.duckdns.org",
+    "githubUrl": "https://github.com/rehmaan4584/black_pearl_store_frontend",
+    "image": "/projects/328253cf-e14f-481d-82f2-9b9450a9e634.png",
+    "sortOrder": 2
+  },
+  {
+    "id": "wimetrix-line-dashboard",
+    "title": "Production Line KPI Dashboard · Wimetrix",
+    "category": "professional",
+    "summary": "Problem: Line managers and production stakeholders lacked real-time, line-wise visibility into garment manufacturing KPIs — efficiency, faulty operations, rejected pieces, hourly production vs. target, and SAM — forcing manual monitoring across disconnected reports. Solution: Built a full-stack dashboard with Fastify APIs querying MSSQL for line-level KPIs, top faulty operations, worker performance, and SAM values; React + Vite frontend with MUI and Recharts rendering live line-wise charts and hourly production targets.",
+    "techStack": [
+      "Node.js",
+      "TypeScript",
+      "Fastify",
+      "MSSQL",
+      "React",
+      "Vite",
+      "MUI",
+      "Recharts",
+      "Redux Toolkit",
+      "React Query"
+    ],
+    "image": "/projects/a1ef73e3-f5a8-448c-a27b-3f2753969a03.png",
+    "videoUrl": "",
+    "sortOrder": 3
+  },
+  {
+    "id": "black-pearl-portal",
+    "title": "Black Pearl Portal",
+    "category": "personal",
+    "summary": "Problem: Sellers need a dedicated admin panel to manage catalog, inventory, and orders without touching code. Solution: Next.js seller portal with product/variant CRUD, category & lookup tables, Cloudinary image uploads, order status workflow (PAID → SHIPPED → DELIVERED), and JWT-protected routes — updates sync live to the customer store.",
+    "techStack": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "react-hook-form",
+      "JWT",
+      "Cloudinary"
+    ],
+    "liveUrl": "https://rehman-bp-portal.duckdns.org",
+    "githubUrl": "https://github.com/rehmaan4584/black_pearl_portal_frontend",
+    "image": "/projects/b7af7578-f9bc-4a36-ac0e-7990eb4164a3.png",
+    "sortOrder": 3
+  },
+  {
+    "id": "dappster-ai-trading",
+    "title": "AI Trading Analysis · DAppster",
+    "category": "professional",
+    "summary": "Problem: Users needed an authenticated way to upload trading charts and notes and receive AI-driven market analysis without switching between tools. Solution: Built a full-stack platform with React + Vite frontend, Express JWT auth, and a Python Gemini agent spawned via stdin/stdout — users upload image + text, backend validates the session, orchestrates the AI pipeline, and returns structured trading insights to the UI.",
+    "techStack": [
+      "Node.js",
+      "Express",
+      "React",
+      "TypeScript",
+      "Vite",
+      "MUI",
+      "Python",
+      "Google Gemini",
+      "JWT",
+      "Multer"
+    ],
+    "image": "/projects/5ee2bed1-19aa-441d-ba9d-4765c603ff07.png",
+    "videoUrl": "",
+    "sortOrder": 4
+  },
+  {
+    "id": "task-studio",
+    "title": "Task Studio",
+    "category": "personal",
+    "summary": "Problem: Task reminders need reliable scheduling and instant user notification. Solution: Express API with BullMQ delayed jobs, Redis pub/sub bridge, and Socket.IO real-time toasts — deployed on AWS EC2 with JWT auth and session management.",
+    "techStack": [
+      "Express",
+      "React",
+      "MongoDB",
+      "Redis",
+      "BullMQ",
+      "Socket.IO",
+      "Vite"
+    ],
+    "liveUrl": "http://16.16.198.166",
+    "githubUrl": "https://github.com/rehmaan4584/Task-manager-frontend",
+    "image": "/projects/7f5f5fc9-5f90-47ae-a611-1dbed64a7589.png",
+    "sortOrder": 4
+  }
+]

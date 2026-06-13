@@ -1,0 +1,13 @@
+{
+  "name": "Abdul",
+  "title": "Full-Stack Developer",
+  "heroTagline": "Building scalable full-stack applications with modern cloud architecture.",
+  "bio": "I develop production-ready web applications using React, Next.js, Node.js, NestJS, PostgreSQL, Redis, and AWS. My focus is scalable architecture, real-time systems, and high-performance user experiences.",
+  "aboutBio": "I'm a Full-Stack Developer with hands-on experience across fintech, AI, e-commerce, and manufacturing — from idea to deployed production systems.\n\nCurrently at Sterlings Tech, I build Amana Pay (digital wallet & core-banking platform with payment-switch integrations) and Scribe (AI study platform with LLM pipelines, collaborative workspaces, and Stripe billing). Previously at Wimetrix, I delivered a real-time garment manufacturing KPI dashboard; at DAppster, an AI trading analysis tool powered by Google Gemini.\n\nMy personal portfolio includes four deployed full-stack projects — multi-tenant CRM, Task Studio with BullMQ & Socket.IO, and Black Pearl e-commerce (store + seller portal) — demonstrating end-to-end ownership of architecture, backend APIs, frontend UX, and cloud deployment.\n\nI work comfortably across React, Next.js, Angular, Node.js, NestJS, Express, Fastify, PostgreSQL, MongoDB, Redis, and AI integrations — with a focus on clean APIs, RBAC, real-time features, and systems that scale.",
+  "email": "rehmaan.dev@gmail.com",
+  "whatsapp": "03004584233",
+  "linkedin": "https://www.linkedin.com/in/abdul-rehman-05a661248",
+  "github": "https://github.com/rehmaan4584",
+  "profileImage": "/profile/profile.png",
+  "resumeUrl": "/resume.pdf"
+}
